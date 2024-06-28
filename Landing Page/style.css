@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* all-buutons  */
+button {
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    background-color: rgb(50, 120, 50);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgba(89, 162, 89, 0.919);
+}
+
+/* header-background-image and header styling */
+header {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.435), rgba(65, 135, 65, 0.57)), url("https://img.freepik.com/free-photo/cute-adorable-afro-american-student-girl-with-black-voluminous-hair-enjoying-leisure-time-after-college-lying-couch-stylish-ripped-jeans-blouse-sharing-thoughts-ideas-her-diary_343059-4731.jpg?t=st=1709108773~exp=1709112373~hmac=2d8711af55517a8fbb2e5b0d8c497a62640926a4af6632a9f89a7e99b162a4dc&w=826");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(47, 112, 47, 0.772);
+}
+
+/* header-nav-styling  */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30rem;
+}
+
+nav #btn,
+#btn2 {
+    display: none;
+}
+
+nav .logo-item {
+    display: flex;
+    justify-content: space-around;
+    width: 34rem;
+    margin: auto 0;
+}
+
+.logo-item div {
+    display: flex;
+}
+
+.logo-item img {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+nav .logo-text {
+    font-weight: bold;
+    display: flex;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.logo-text p {
+    color: white;
+}
